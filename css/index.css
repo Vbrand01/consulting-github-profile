@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+h3{
+    color: rgb(224, 224, 224);
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+}
+
+.alinhando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btoConsult{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(97, 97, 97);
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    color: rgb(0, 255, 170);
+    border: 0.8px solid rgb(0, 255, 191);
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.5s;
+}
+
+#btoConsult:hover{
+    transition: 0.6s;
+    margin-top: 10px;
+    background-color: rgb(0, 255, 170);
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    -moz-transform: scale(0.2);
+	-webkit-transform: scale(1.5);
+	transform: scale(0.9);
+}
+
+.confirm-button-class{
+    background-color: rgb(0, 255, 157) !important;
+    color: black !important;
+}
+
+.confirm-button-class:hover{
+    background-color: rgb(0, 255, 157) !important;
+    color: black !important;
+    width: 100px;
+    transition: 3s;
+    animation: 1s;
+
+}
+
+.input-class{
+    background-color: rgb(68, 68, 68);
+    border: none;
+    outline: none !important;
+}
+
+.img-url{
+    border-radius: 8px !important;
+    border: solid 5px white !important;
+}
+
+.close-button-class{
+    background-color: red !important;
+}
+
+.confirm{
+    background-color: red !important;
+}
+
+.show{
+    background-color: red !important;
+}
+
+.timer-style{
+    color: red !important;
+}
+
+b{
+    color: rgb(0, 255, 157);
+}
+
+.valid-message{
+    background-color: red !important;
+}
+
+.swal2-image{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    opacity: 10%;
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.5s;
+    border-radius: 300px;
+}
+
+.swal2-popup{
+    margin-top: 350px;
+    background-color: rgba(54, 54, 54, 0.849) !important;
+    margin-bottom: 400px;
+}
+
+.swal2-image:hover{
+    margin-top: 60px;
+    border: 3px solid rgb(187, 187, 187);
+    border-radius: 8px;
+    opacity: 100%;
+    transition: 1s;
+    -moz-transform: scale(0.2);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.1);
+}
+
+.swal2-confirm{
+    background-color: rgb(0, 255, 157) !important;
+    color: black !important;
+    font-weight: 700;
+}
+
+.swal2-confirm:hover{
+    background-color: rgb(0, 255, 157) !important;
+    color: black !important;
+    font-weight: 700;
+    
+}
